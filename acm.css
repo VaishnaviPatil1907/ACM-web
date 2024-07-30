@@ -1,0 +1,93 @@
+/* Reset some basic elements */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:black;
+    color: white;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+    height: 100vh;
+    background: url('bckgrd6.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    
+    color: white;
+    text-align: center;
+
+}
+
+.hero-content {
+    max-width: 600px;
+    transform: translateY(30px);
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+/* Footer styles */
+footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+nav li:hover a {
+    color:aqua;
+    text-decoration: underline;
+}
+.cta-button:hover{
+    border: 3px yellowgreen;
+}

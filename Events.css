@@ -1,0 +1,75 @@
+body{
+    background-image: url(bckgrd.jpeg);
+    background-size:cover;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    
+}
+
+.events-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    
+    box-shadow: 0 0 whitesmoke;
+}
+
+.events-section h2 {
+    text-align: center;
+    color:white;
+}
+
+.event {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.event h3 {
+    margin: 0;
+    color:white;
+}
+
+.event .date,
+.event .location,
+.event .description {
+    margin: 5px 0;
+}
+
+.event:last-child {
+    border-bottom: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:black;
+    color: white;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav li:hover a {
+    color:aqua;
+    text-decoration: underline;
+}
